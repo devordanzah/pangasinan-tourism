@@ -76,39 +76,28 @@ export default {
   data() {
     return {
       heritageSites: [
-        {
-          id: 1,
-
-          title: "Hundred Islands",
-
-          description:
-            "Explore the breathtaking Hundred Islands National Park in Alaminos City.",
-
-          image: "/images/hundred-islands.jpg",
-        },
-
-        {
-          id: 2,
-
-          title: "Bolinao Lighthouse",
-
-          description:
-            "Visit the historic lighthouse and enjoy panoramic views of the coastline.",
-
-          image: "/images/bolinao-lighthouse.jpg",
-        },
-
-        {
-          id: 3,
-
-          title: "Balungao Hot Spring",
-
-          description:
-            "Experience the relaxing natural hot springs surrounded by beautiful landscapes.",
-
-          image: "/images/balungao-hot-spring.jpg",
-        },
-      ],
+  {
+    id: 1,
+    title: "Hundred Islands",
+    description:
+      "Explore the breathtaking Hundred Islands National Park in Alaminos City.",
+    image: `${process.env.BASE_URL}images/hundred-islands.jpg`,
+  },
+  {
+    id: 2,
+    title: "Bolinao Lighthouse",
+    description:
+      "Visit the historic lighthouse and enjoy panoramic views of the coastline.",
+    image: `${process.env.BASE_URL}images/bolinao-lighthouse.jpg`,
+  },
+  {
+    id: 3,
+    title: "Balungao Hot Spring",
+    description:
+      "Experience the relaxing natural hot springs surrounded by beautiful landscapes.",
+    image: `${process.env.BASE_URL}images/balungao-hot-spring.jpg`,
+  },
+]
     };
   },
 };

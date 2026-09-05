@@ -9,7 +9,7 @@ export const heritageSites = [
       'Explore the breathtaking Hundred Islands National Park in Alaminos City.',
 
     image:
-      '/images/heritage/hundred-islands.jpg'
+      '/pangasinan-tourism/images/hundred-islands.jpg'
   },
 
   {
@@ -21,7 +21,7 @@ export const heritageSites = [
       'Visit the historic Bolinao Lighthouse and enjoy panoramic views of the coastline.',
 
     image:
-      '/images/heritage/bolinao-lighthouse.jpg'
+      '/pangasinan-tourism/images/bolinao-lighthouse.jpg'
   },
 
   {
@@ -33,7 +33,7 @@ export const heritageSites = [
       'Experience the relaxing natural hot springs surrounded by beautiful landscapes.',
 
     image:
-      '/images/heritage/balungao-hot-spring.jpg'
+      '/pangasinan-tourism/images/balungao-hot-spring.jpg'
   }
 
 ]

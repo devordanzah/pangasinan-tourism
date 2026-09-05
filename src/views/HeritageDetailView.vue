@@ -101,48 +101,30 @@ export default {
     return {
 
       heritageSites: [
+  {
+    id: 1,
+    title: 'Hundred Islands',
+    description:
+      'Explore the breathtaking Hundred Islands National Park in Alaminos City, featuring beautiful islands, clear waters, and stunning coastal scenery.',
+    image: '/pangasinan-tourism/images/hundred-islands.jpg',
+  },
 
-        {
-          id: 1,
+  {
+    id: 2,
+    title: 'Bolinao Lighthouse',
+    description:
+      'Visit the historic Cape Bolinao Lighthouse and enjoy panoramic views of the coastline and surrounding landscapes.',
+    image: '/pangasinan-tourism/images/bolinao-lighthouse.jpg',
+  },
 
-          title: 'Hundred Islands',
-
-          description:
-            'Explore the breathtaking Hundred Islands National Park in Alaminos City, featuring beautiful islands, clear waters, and stunning coastal scenery.',
-
-          image:
-            '/images/hundred-islands.jpg'
-        },
-
-
-        {
-          id: 2,
-
-          title: 'Bolinao Lighthouse',
-
-          description:
-            'Visit the historic Cape Bolinao Lighthouse and enjoy panoramic views of the coastline and surrounding landscapes.',
-
-          image:
-            '/images/bolinao-lighthouse.jpg'
-        },
-
-
-        {
-          id: 3,
-
-          title: 'Balungao Hot Spring',
-
-          description:
-            'Experience the relaxing natural hot springs of Balungao surrounded by beautiful landscapes and peaceful scenery.',
-
-          image:
-            '/images/balungao-hot-spring.jpg'
-        },
-
-
-
-      ]
+  {
+    id: 3,
+    title: 'Balungao Hot Spring',
+    description:
+      'Experience the relaxing natural hot springs of Balungao surrounded by beautiful landscapes and peaceful scenery.',
+    image: '/pangasinan-tourism/images/balungao-hot-spring.jpg',
+  },
+]
 
     }
   },
